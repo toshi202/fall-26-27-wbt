@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <h2> Donor Information </h2>
+        <table>
+            <tr>
+                <td> <label for="f_name"> First Name* </label></td>
+                <td> <input type="text" id="f_name" name="f_name" required> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="s_name"> Second Name* </label></td>
+                <td> <input type="text" id="s_name" name="f_name" required> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="c_name"> Company </label></td>
+                <td> <input type="text" id="c_name" name="f_name" required> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="a1_name"> Address 1* </label></td>
+                <td> <input type="text" id="a1_name" name="a1_name" required> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="a2_name"> Address 2 </label></td>
+                <td> <input type="text" id="a2_name" name="a2_name" required> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="ci_name"> City* </label></td>
+                <td> <input type="text" id="ci_name" name="ci_name" required> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="state"> State* </label></td>
+
+                <td>
+                    <select id="state" name="state">
+                        <option> Select a State </option>
+                        <option> Wales </option>
+                        <option> Scotland </option>
+                        <option> England </option>
+                        <option> North Ireland </option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="z_name"> Zip Code* </label></td>
+                <td> <input type="number" id="z_name" name="z_name" required> </td>
+            </tr>
+
+
+            <tr>
+                <td> <label for="country"> Country* </label></td>
+
+                <td>
+                    <select id="country" name="country">
+                        <option> Select a Country </option>
+                        <option> Bangladesh </option>
+                        <option> Italy </option>
+                        <option> Cyprus </option>
+                        <option> Canada </option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="p_name"> Phone Number </label></td>
+                <td> <input type="tel" id="p_name" name="p_name" required> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="f_name"> Fax </label></td>
+                <td> <input type="text" id="f_name" name="f_name" required> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="e_name"> Email* </label></td>
+                <td> <input type="text" id="e_name" name="e_name" required> </td>
+            </tr>
+
+            <tr>
+                <td> <label>Donation Amount* </label><br>
+
+                    (Check a button or type in your amount)
+
+                <td>
+                    <input type="radio" name="donation amount" value="none"> None
+                    <input type="radio" name="donation amount" value="$50"> $50
+                    <input type="radio" name="donation amount" value="$75"> $75
+                    <input type="radio" name="donation amount" value="$100"> $100
+                    <input type="radio" name="donation amount" value="$250"> $250
+                    <input type="radio" name="donation amount" value="other"> Others
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td> <label for="donation amount"> Others Amount $ </label>
+                    <input type="number" name="amount" required>
+                </td>
+
+            </tr>
+
+
+
+
+            <tr>
+                <td><label> Recurring Donation </label><br>
+                    (Check if Yes)
+                <td>
+                    <input type="checkbox" value=" I'm Interested in giving on a regular basis.">I'm Interested in
+                    giving on a regular basis.
+                </td>
+
+            </tr>
+
+            <tr>
+                <td></td>
+                <td> <label for="credit">Monthly Credit Card $</label>
+                    <input type="number" name="credit" required>
+
+                    <label for="For"> For </label>
+                    <input type="number" name="month" required>
+                    <label for="Month"> Months</label>
+
+                </td>
+
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+
+        <h2> Honorarium Memorial Donation Information </h2>
+
+        <table>
+            <tr>
+                <td> <label>I would like to make this Donation</label><br>
+
+                <td>
+
+                    <input type="checkbox" value="honor"> To Honor<br>
+                    <input type="checkbox" value="memory"> In Memory of
+                </td>
+
+            </tr>
+
+            <tr>
+                <td> <label for="name">Name</label></td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+
+            <tr>
+                <td> <label for="Donation">Acknowledge Donation To</label></td>
+                <td><input type="text" name="Donation" required></td>
+            </tr>
+
+            <tr>
+                <td> <label for="name"> Address </label></td>
+                <td> <input type="text" id="name" name="name" required> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="ci_name"> City </label></td>
+                <td> <input type="text" id="name" name="name" required> </td>
+            </tr>
+            <tr>
+                <td> <label for="state"> State* </label></td>
+
+                <td>
+                    <select id="state" name="state">
+                        <option> Select a State </option>
+                        <option> Wales </option>
+                        <option> Scotland </option>
+                        <option> England </option>
+                        <option> North Ireland </option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="name"> Zip </label></td>
+                <td> <input type="number" id="name" name="name" required> </td>
+            </tr>
+
+
+
+
+
+        </table>
+
+    </fieldset>
+
+    <td></td>
+    <td>
+        <centre>
+            <input type="reset" name="reset">
+            <input type="submit" value="Continue">
+        </centre>
+    </td>
+
+
+</body>
+
+
+
+
+
+</html>
